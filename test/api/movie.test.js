@@ -23,7 +23,7 @@ describe('/api/movies tests',() => {
                .get('/api/movies')
                .set('x-access-token',token)
                .end((err,res) => {
-                   res.should.have.status(200)
+                   res.should.have.status(200);
                    res.body.should.be.a('array');
                    done();
                });
@@ -60,8 +60,6 @@ describe('/api/movies tests',() => {
     });
     describe('/GET/:movie_id movie', () => {
         it('it should GET a movie by the given id', (done) => {
-
-
            chai.request(server)
                .get('/api/movies/'+movieId)
                .set('x-access-token',token)
