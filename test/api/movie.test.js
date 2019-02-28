@@ -109,7 +109,7 @@ describe('/api/movies tests',() => {
         it('it should DELETE a movie given by id', (done) => {
             chai.request(server)
                 .delete('/api/movies/'+movieId)
-                .set('x-access-token','lkdmgldkgmekr')
+                .set('x-access-token','token')
                 .end((err,res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
