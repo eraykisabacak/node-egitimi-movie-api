@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/eraykisabacak/node-egitimi-movie-api.svg)](https://travis-ci.org/eraykisabacak/node-egitimi-movie-api)
+
 # node-egitimi-movie-api
 NodeJS - Movie Api - Eğitim Seti - Eray Kısabacak -
 
